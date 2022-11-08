@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tablelator.css">
+    <title>Calculator - Grid Layout</title>
+</head>
+<body>
+    <table id="calculator" class="calculator">
+        <tr id="screen">
+            <td id="screen" colspan="4">1234</td>  <!-- Screen Results -->
+        </tr>
+
+        <tr id="nothing">
+            <td id="nothing" colspan="4"><hr></td>
+        </tr>
+
+        <tr>
+            <td id="AC" class="buttons">AC</td>  <!-- AC -->
+            <td id="AC" class="buttons"><p>CE</p></td>  <!-- CE -->
+            <td id="percent" class="buttons"><p>%</p></td>  <!-- % -->
+            <td id="dividing" class="buttons"><p>/</p></td>  <!-- / -->
+        </tr>
+
+        <tr>
+            <td class="buttons"><p>7</p></td>  <!-- 7 -->
+            <td class="buttons"><p>8</p></td>  <!-- 8 -->
+            <td class="buttons"><p>9</p></td>  <!-- 9 -->
+            <td id="multiplication" class="buttons"><p>X</p></td>  <!-- X -->
+        </tr>
+
+        <tr>
+            <td class="buttons"><p>4</p></td>  <!-- 4 -->
+            <td class="buttons"><p>5</p></td>  <!-- 5 -->
+            <td class="buttons"><p>6</p></td>  <!-- 6 -->
+            <td id="subtraction" class="buttons"><p>-</p></td>  <!-- - -->
+        </tr>
+        
+        <tr>
+            <td class="buttons"><p>1</p></td>  <!-- 1 -->
+            <td class="buttons"><p>2</p></td>  <!-- 2 -->
+            <td class="buttons"><p>3</p></td>  <!-- 3 -->
+            <td id="sum" class="buttons" rowspan="2"><p>+</p></td>
+        </tr>
+
+        <tr>
+            <td class="buttons"><p>0</p></div>  <!-- 0 -->
+            <td id="dot" class="buttons"><p>.</p></td>  <!-- . -->
+            <td id="equality" class="buttons"><p>=</p></td>  <!-- = -->
+              <!-- + (2 columns) -->
+        </tr>
+    </table>
+
+    <script src="tablelator.js"></script>
+</body>
+</html>

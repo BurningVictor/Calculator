@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: lightgray;
+    background-repeat: none;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+
+    border: 2px solid black;
+    width: 500px; 
+    height: 580px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+div#screen {
+    display: flex;
+
+    width: 100%;
+}
