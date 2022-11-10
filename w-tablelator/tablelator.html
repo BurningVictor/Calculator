@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tablelator.css">
+    <title>Calculator - Grid Layout</title>
+</head>
+<body>
+    <table id="calculator" class="calculator">
+        <tr id="screen">
+            <td id="screen" colspan="4">123456789</td>  <!-- Screen Results -->
+        </tr>
+
+        <tr id="nothing">
+            <td id="nothing" colspan="4"><hr></td>
+        </tr>
+
+        <tr>
+            <td id="AC" class="buttons">AC</td>  <!-- AC -->
+            <td id="CE" class="buttons">CE</td>  <!-- CE -->
+            <td id="percent" class="operators">%</td>  <!-- % -->
+            <td id="dividing" class="operators">/</td>  <!-- / -->
+        </tr>
+
+        <tr>
+            <td class="numbers">7</td>  <!-- 7 -->
+            <td class="numbers">8</td>  <!-- 8 -->
+            <td class="numbers">9</td>  <!-- 9 -->
+            <td id="multiplication" class="operators">X</td>  <!-- X -->
+        </tr>
+
+        <tr>
+            <td class="numbers">4</td>  <!-- 4 -->
+            <td class="numbers">5</td>  <!-- 5 -->
+            <td class="numbers">6</td>  <!-- 6 -->
+            <td id="subtraction" class="operators">-</td>  <!-- - -->
+        </tr>
+        
+        <tr>
+            <td class="numbers">1</td>  <!-- 1 -->
+            <td class="numbers">2</td>  <!-- 2 -->
+            <td class="numbers">3</td>  <!-- 3 -->
+            <td id="sum" class="operators" rowspan="2">+</td>
+        </tr>
+
+        <tr>
+            <td class="numbers">0</td>  <!-- 0 -->
+            <td id="dot" class="buttons">.</td>  <!-- . -->
+            <td id="equality" class="buttons">=</td>  <!-- = -->
+              <!-- + (2 columns) -->
+        </tr>
+    </table>
+
+    <script src="tablelator.js"></script>
+</body>
+</html>
